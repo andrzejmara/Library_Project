@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <!-- Alertify.js -->
+    <script src="js/alertify.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/alertify.min.css" />
+    <link rel="stylesheet" href="css/themes/default.min.css">
+    <!-- Popper.js -->
+    <script src="js/popper.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap 4 Beta. -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Google Web Fonts - Open Sans i Raleway. -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
+
+    <!-- Font Awesome. -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Style do Edytowania. -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Mała Biblioteka</a>
+            <span class="navbar-text text-white">Autor: Andrzej Mara</span>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col">
+                    <h1>Książki</h1>
+                    <div class="button-group">
+                    </div>
+                    <form action="/" id="bookForm">
+                        <div class="form-group">
+                            <label for="">Tytuł</label>
+                            <input class="formTitle" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Autor</label>
+                            <input class="formAuthor" type="text">
+                        </div>
+                        <button class="btn btn-success btn-sm" id="succ">
+                            <i class="fa fa-plus"></i> Dodaj</button>
+                    </form>
+                    <table class="table table-hover table-sm" id=booksTable>
+                        <thead>
+                            <tr>
+                                <th>Tytuł</th>
+                                <th>Autor</th>
+                                <th>Opcje</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>[Tytuł]</td>
+                                <td>[Autor]</td>
+                                <td>
+                                    <div class="button-group">
+                                        <button class="btn btn-primary btn-sm">Edytuj</button>
+                                        <button class="btn btn-danger btn-sm">Usuń</button>
+                                        <button class="btn btn-info btn-sm">Wypożycz</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--              READERS            -->
+                <div class="col">
+                    <h1>Czytelnicy</h1>
+                    <div class="button-group">
+                    </div>
+                    <form action="/" id="readersForm">
+                        <div class="form-group">
+                            <label for="">Imię i Nazwisko</label>
+                            <input class="readerFormName" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Wiek</label>
+                            <input class="readerFormAge" type="number" min="0" max="150">
+                        </div>
+                        <button class="btn btn-success btn-sm" id="readerSubmit">
+                            <i class="fa fa-plus"></i> Dodaj</button>
+                    </form>
+                    <table class="table table-hover table-sm" id=readersTable>
+                        <thead>
+                            <tr>
+                                <th>Imię i Nazwisko</th>
+                                <th>Wiek</th>
+                                <th>Opcje</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>[Imię i Nazwisko]</td>
+                                <td>[Wiek]</td>
+                                <td>
+                                    <div class="button-group">
+                                        <button class="btn btn-primary btn-sm">Edytuj</button>
+                                        <button class="btn btn-danger btn-sm">Usuń</button>
+                                        <button class="btn btn-info btn-sm">Wypożycz</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col">
+                    <!--              Lending           -->
+                    <h1>Wypożyczone</h1>
+                    <table class="table table-hover table-sm" id="lendingTable">
+                            <thead>
+                                <tr>
+                                    <th>Tytuł książki</th>
+                                    <th>Wypożyczający</th>
+                                    <th>Data Wypożyczenia</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>[Tytuł książki]</td>
+                                    <td>[Wypożyczający]</td>
+                                    <td>[Data Wypożyczenia]</td>
+                                    <td>
+                                        <div class="button-group">
+                                            <button class="btn btn-warning btn-sm">Oddaj</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

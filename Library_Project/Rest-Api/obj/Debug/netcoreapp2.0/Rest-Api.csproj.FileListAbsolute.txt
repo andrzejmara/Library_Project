@@ -1,0 +1,11 @@
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\bin\Debug\netcoreapp2.0\Rest-Api.deps.json
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\bin\Debug\netcoreapp2.0\Rest-Api.runtimeconfig.json
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\bin\Debug\netcoreapp2.0\Rest-Api.runtimeconfig.dev.json
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\bin\Debug\netcoreapp2.0\Rest-Api.dll
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\bin\Debug\netcoreapp2.0\Rest-Api.pdb
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.csprojAssemblyReference.cache
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.csproj.CoreCompileInputs.cache
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.AssemblyInfoInputs.cache
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.AssemblyInfo.cs
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.dll
+C:\Users\Delfin\Documents\GitHub\WRO_NET_S_01_Warsztaty_4\Rest-Solution\Rest-Api\obj\Debug\netcoreapp2.0\Rest-Api.pdb
